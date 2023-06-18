@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Century Gothic;
+}
+
+header{
+    height: auto;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 2% 5%;
+}
+
+#inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(236, 236, 0)
+}
+
+#form{
+    height: auto;
+    background-color: rgb(236, 236, 0);
+}
+
+#formP{
+    display: flex;
+    justify-content: center;
+    padding: 22px;
+}
+
+#cPesquisa{
+    width: 300px;
+    height: 30px;
+}
+
+.pesq{
+    font-size: 18px;
+    color: white;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#menu ul a{
+    color: white;
+    text-shadow: rgb 2px 2px 2px;
+    padding: 20px 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 18px;
+    display: block;
+}
+
+#menu ul a:hover{
+    background-color: white;
+    color: rgb(236, 236, 0);
+}
+
+#conteudo{
+    font-size: 20px;
+    text-align: justify;
+}
+
+footer{
+    background-color: rgb(236, 236, 0);
+    padding: 20px;
+}
+
+#orçamento{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], textarea{
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid
+}
+
+textarea{
+    resize: vertical;
+    height: 100px;
+}
+
+input[type="submit"]{
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #45a049;
+}
